@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electric Film TX — Smart Window Tinting</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<nav class="bg-white shadow fixed w-full z-30">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+    <a href="index.html" class="font-bold text-blue-600 text-lg">Electric Film TX</a>
+    <div class="space-x-6 text-sm hidden md:block">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html" class="bg-blue-600 text-white px-4 py-2 rounded">Get Quote</a>
+    </div>
+  </div>
+</nav>
+
+<header class="pt-32 pb-20 bg-gradient-to-b from-slate-900 to-slate-800 text-white text-center">
+  <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+    Smart Window Tinting in El Paso
+  </h1>
+  <p class="text-blue-200 max-w-2xl mx-auto mb-8">
+    Switch glass from clear to private instantly. Residential, commercial & automotive smart film.
+  </p>
+
+  <a href="contact.html" class="bg-white text-blue-700 px-6 py-3 rounded font-semibold">
+    Request a Free Quote
+  </a>
+</header>
+
+<section class="py-16 max-w-6xl mx-auto px-6">
+  <h2 class="text-2xl font-bold text-center mb-8">Our Services</h2>
+  <div class="grid md:grid-cols-3 gap-6">
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="font-semibold mb-2">Residential</h3>
+      <p class="text-sm text-gray-600">Privacy and heat control for homes.</p>
+    </div>
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="font-semibold mb-2">Commercial</h3>
+      <p class="text-sm text-gray-600">Conference rooms and storefronts.</p>
+    </div>
+    <div class="bg-white shadow p-6 rounded">
+      <h3 class="font-semibold mb-2">Automotive</h3>
+      <p class="text-sm text-gray-600">Advanced smart tint for vehicles.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-gray-300 py-6 text-center">
+  © <span id="year"></span> Electric Film TX • El Paso, TX
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
